@@ -69,6 +69,7 @@ body {
     margin: 10px 0px;
   }
   .buttons {
+    margin-top: 10px;
     display: flex;
     gap: 30px;
   }
