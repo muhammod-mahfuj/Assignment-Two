@@ -17,6 +17,9 @@ body {
     border: none;
     border-radius: 15px;
   }
+  .secondary-color {
+    color: #999999;
+  }
 /* header */
 .navbar{
     display: flex;
@@ -96,12 +99,14 @@ body {
   background: #303030;
 }
 .workout-videos{
-  
-  width: 193px; 
+  width: 11%; 
   border-radius:15px ;
   align-items: center;
   padding: 20px;
   border: 1px solid #303030;
+  position: absolute;
+  top: 20%;
+  right: 6%;
 }
 .workout-videos h3 {
   font-size: 40px;
@@ -114,19 +119,31 @@ body {
   font-weight: 400;
 }
 .tutorials {
-  width: 206px; 
+  width: 11%; 
   border-radius:15px ;
   align-items: center;
   padding: 20px;
   border: 1px solid #303030;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 43%;
+  left: 57%;
+}
+.orange-logo{
+  width: 30px;
+  height: 30px;
+  background: #E6533C;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .tutorials span {
   color: #999999;
   font-weight: 400;
 }
-.tutorials h3 {
+.tutorials h4 {
   font-size: 24px;
   font-weight: bold;
-  margin:0px 0px 3px;
+  margin:0px 0px 5px 0px;
   letter-spacing: 1px;
 }
