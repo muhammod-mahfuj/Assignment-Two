@@ -45,6 +45,7 @@ body {
   .banner{
     display: flex;
     justify-content: space-between;
+    gap: 60px;
   }
   .banner-info {
     display: flex;
@@ -91,3 +92,41 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
+.workout-videos,.tutorials{
+  background: #303030;
+}
+.workout-videos{
+  
+  width: 193px; 
+  border-radius:15px ;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #303030;
+}
+.workout-videos h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin:0px 0px 6px;
+  letter-spacing: 1px;
+}
+.workout-videos span {
+  color: #999999;
+  font-weight: 400;
+}
+.tutorials {
+  width: 206px; 
+  border-radius:15px ;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #303030;
+}
+.tutorials span {
+  color: #999999;
+  font-weight: 400;
+}
+.tutorials h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin:0px 0px 3px;
+  letter-spacing: 1px;
+}
