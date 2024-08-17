@@ -3,10 +3,13 @@
 /* font-family: "Roboto", sans-serif; 
 font-family: "Dancing Script", cursive; */
 body {
-    max-width: 1100px;
-    margin: 20px auto;
     background-color:#111111;
     color: #FFFFFF;
+    margin: 0px;
+}
+main, header{
+  max-width: 1100px;
+  margin: 20px auto;
 }
 section {
   margin: 80px 0px;
@@ -99,6 +102,7 @@ section {
 
 
   .banner-img {
+    position: relative;
     width: 45%;
     background-image:url("../asset/images/Images2.png");
     background-size: contain;
@@ -110,14 +114,14 @@ section {
 }
 
 .workout-videos{
-  width: 11%; 
+  width: 193px; 
   border-radius:15px ;
   align-items: center;
   padding: 20px;
   border: 1px solid #303030;
   position: absolute;
-  top: 160px;
-  right: 110px;
+  top: 80px;
+  right: -50px;
 }
 .workout-videos h3 {
   font-size: 40px;
@@ -130,7 +134,7 @@ section {
   font-weight: 400;
 }
 .tutorials {
-  width: 11%; 
+  width: 203px; 
   border-radius:15px ;
   align-items: center;
   padding: 20px;
@@ -138,8 +142,8 @@ section {
   display: flex;
   flex-direction: row;
   position: absolute;
-  bottom: 300px;
-  right: 400px;
+  bottom: 50px;
+  left: -10px;
 }
 .orange-logo{
   width: 30px;
@@ -355,13 +359,19 @@ input, select {
 }
 .package-card{
   background-color: #222222;
-  height:200px;
+  height:230px;
   padding: 20px 10px;
-  text-align: left;
   border-radius: 60px 0px 60px 20px;
   width: 300px;
   border: 1px solid #999999;
   transition: .5s;
+}
+.package-card > ul {
+  text-align: left;
+}
+.package-card > .btn {
+  text-align: center;
+  margin: 10px 0px;
 }
 .package-card:hover {
   border: 1px solid black;
@@ -371,4 +381,35 @@ input, select {
   margin-bottom: 30px;
   color: rgb(200, 148, 148);
   font-weight: bolder;
+}
+
+/* footer  */
+footer{
+  background-color: #191919;
+  margin: 80px 0px 0px 0px;
+}
+.footer-tabs{
+  width: 1100px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 30px 0px;
+}
+
+.footer-tab-2 > ul  {
+  list-style: none;
+  text-decoration: none;
+  color: #999999;
+}
+.footer-tab-3 > ul  {
+  list-style: none;
+  text-decoration: none;
+  color: #999999;
+}
+.copyright{
+  color: #999999;
+  background-color: #222222;
+  text-align: center;
+  padding: 10px;
 }
