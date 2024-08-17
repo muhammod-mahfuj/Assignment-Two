@@ -26,6 +26,15 @@ section {
     border: none;
     border-radius: 15px;
   }
+  .button {
+    font-weight: 500;
+    color: white;
+    background: transparent;
+    align-items: center;
+    padding: 10px 40px !important;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+  }
   .secondary-color {
     color: #999999;
    
@@ -88,15 +97,7 @@ section {
     gap: 30px;
   }
 
-  .button {
-    font-weight: 500;
-    color: white;
-    background: transparent;
-    align-items: center;
-    padding: 10px 30px !important;
-    border: 1px solid #FFFFFF;
-    border-radius: 15px;
-  }
+
   .banner-img {
     width: 45%;
     background-image:url("../asset/images/Images2.png");
@@ -216,15 +217,24 @@ section {
 .bmi-calculatortable{
   background-color: #222222;
   display: flex;
+  gap: 5%;
+  padding: 10px;
+}
+.bmi-calculatortable h4 {
+  font-size: 28px;
+  margin: 13px 0px;
+}
+.bmi-calculator{
+  width: 55%;
+  padding: 20px;
 }
 .bmi-table {
-  
-  width: 50%;
+  width: 40%;
   margin: 0px auto;
   padding: 20px;
 }
 table {
-  width: 50%;
+  width: 100%;
   border-collapse: collapse;
 }
 th, td {
@@ -234,4 +244,19 @@ th, td {
 }
 th {
   color: white;
+}
+.calculate{
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+#factors {
+  grid-column: span 2;
+}
+input, select {
+  background-color: #383838;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
 }

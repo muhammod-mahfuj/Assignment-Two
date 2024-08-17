@@ -124,19 +124,25 @@
 
             <div class="bmi-calculator">
                <h4>Calculate your BMI</h4>
-               <p>
+               <p class="secondary-color">
                 To calculate your BMI, you'll need to provide your weight and height. Here’s a step-by-step guide on how to do it manually, as well as a quick way to calculate it:</p>
-                <input type="text" placeholder="Height/cm">
-                <input type="text" placeholder="Weight/cm">
-                <input type="text" placeholder="Age">
-                <select name="Sex" id="">
-                    <option value="Male">Male</option>
-                    <option value="female">female</option>
-                </select>
-                <select name="Select an activity factor" id="" aria-placeholder="Select an activity factor">
-                    <option value="dsfd">sdsd</option>
-                    <option value="femssdfale">sd</option>
-                </select>
+                <div class="calculate">
+                    <input type="text" placeholder="Height/cm">
+                    <input type="text" placeholder="Weight/cm">
+                    <input type="text" placeholder="Age">
+                    <select name="Sex" id="" placeholder="Sex">
+                        <option value="Sex">sex</option>
+                        <option value="Male">Male</option>
+                        <option value="female">female</option>
+                    </select>
+                    <select name=" factor" id="factors" placeholder="Select an activity factor">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                    </select>
+                   
+                </div>
+                <button class="button" id="active">Calculate</button>
+              
             </div>
        </section>
     </main>
