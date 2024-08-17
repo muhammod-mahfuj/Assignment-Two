@@ -256,7 +256,119 @@ th {
 }
 input, select {
   background-color: #383838;
+  color:#616162;
   padding: 10px;
   border: none;
   border-radius: 7px;
+}
+
+/* TEAM */
+.team{
+  text-align: center;
+}
+.teammate-cards{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 10px;
+  margin: 60px 0px 30px 0px;
+}
+.teammate-cards  h3 ,.span {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  font-weight: bold;
+}
+
+.teammate-card1{
+  position: relative;
+  background-image: url("../asset/images/trainer1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 250px;
+  max-width: 350px;
+  border-radius: 10px;
+
+}
+.teammate-card2{
+  background-image: url('../asset/images/trainer2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 250px;
+  max-width: 350px;
+  position: relative;
+  border-radius: 10px;
+}
+.teammate-card3{
+  background-image: url("../asset/images/trainer3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 250px;
+  max-width: 350px;
+  position: relative;
+  border-radius: 10px;
+}
+.teammate-card4{
+  background-image: url('../asset/images/trainer4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  max-width: 350px;
+  transform: scale(1.0);
+  position: relative;
+  border-radius: 10px;
+}
+.teammate-card5{
+  background-image: url("../asset/images/trainer5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  max-width: 350px;
+  position: relative;
+  border-radius: 10px;
+}
+  
+.teammate-card6{
+  background-image: url('../asset/images/trainer6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  max-width: 350px;
+  position: relative;
+}
+/* Packages  */
+.packages {
+  text-align: center;
+}
+.package-cards{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.package-card{
+  background-color: #222222;
+  height:200px;
+  padding: 20px 10px;
+  text-align: left;
+  border-radius: 60px 0px 60px 20px;
+  width: 300px;
+  border: 1px solid #999999;
+  transition: .5s;
+}
+.package-card:hover {
+  border: 1px solid black;
+}
+.package-card h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(200, 148, 148);
+  font-weight: bolder;
 }
